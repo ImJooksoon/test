@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<Context>
+
+	<Resource maxActive="500"
+		url="jdbc:oracle:thin:@localhost:1521:XE"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		driverClassName="oracle.jdbc.driver.OracleDriver" password="java"
+		username="java" type="javax.sql.DataSource" auth="Container"
+		name="jdbc/jsptest" />
+
+</Context>
